@@ -27,4 +27,30 @@ Install dependencies via Julia's package manager:
 using Pkg
 Pkg.add("LinearAlgebra")
 Pkg.add("ForwardDiff")
+```
 
+## Code Structure
+
+The directory is organized as follows:
+
+| File/Folder         | Purpose                                                                 |
+|---------------------|-------------------------------------------------------------------------|
+| `src/`              | Contains source code, including the main implementation and utilities. |
+| `Dataset/`         | Provides datasets used for testing and experiments.                    |
+| `Prominent Algorithm/`       | Contains implementations of prominent stochastic dominance approaches. |
+| `README.md`         | Overview and instructions for the project.                             |
+
+---
+
+## Citing This Work
+
+If you use this code, please cite the corresponding research paper:
+
+**TODO: Add link to the paper**
+
+This paper comprehensively explains the implementation and methodology of our proposed approach.
+
+---
+
+## Contributions
+We welcome contributions! Please feel free to open an issue or submit a pull request if you have suggestions, bug reports, or feature requests.
