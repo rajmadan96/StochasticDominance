@@ -5,7 +5,7 @@
 """
 
 using JuMP
-#using GLPK
+using GLPK
 using DataFrames
 using Dates
 
