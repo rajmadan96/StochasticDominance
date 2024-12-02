@@ -5,14 +5,11 @@ This repository provides an efficient framework to solve optimization problems i
 ## Key Features
 - **Finite Reduction of Constraints:** 
    - We simplify uncountable stochastic dominance constraints into a finite, computationally verifiable set of test points.
-- **Two Formulations:** 
-   - Based on **expectation operators**.
-   - Based on **risk measures**.
 - **Optimization Framework:**
-   - Incorporates both formulations for verification and efficient computation.
-- **Generalized Application:** 
-   - Can be applied to portfolio optimization and other areas involving risk and dominance constraints.
-
+   - Incorporates theoretical verification setup using Newton method
+- **Two Variants:** 
+   - Objective: **Maximize Expected Return**
+   - Objective: Minimize **Risk measure**
 ---
 
 ## Getting Started
