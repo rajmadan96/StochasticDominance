@@ -20,11 +20,11 @@ This repository provides an efficient framework to solve optimization problems i
 ### Prerequisites
 Before running the code, ensure you have the following installed:
 - Julia (v1.7 or later)
-- Dependencies for scientific computation: `LinearAlgebra`, `Plots`, `ForwardDiff`
+- Dependencies for scientific computation: `LinearAlgebra`, `ForwardDiff`
 
 Install dependencies via Julia's package manager:
 ```julia
 using Pkg
-Pkg.add("Plots")
+Pkg.add("LinearAlgebra")
 Pkg.add("ForwardDiff")
 
